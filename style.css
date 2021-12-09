@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: #000;
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 10px;
+    box-shadow: 0 1px 5px #e0e0e0;
+    margin-bottom: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav li {
+    display: inline;
+}
+
+.div-des {
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px #ededed solid;
+    margin: 0 10%;
+}
+
+.container {
+    text-align: center;
+}
+
+.card-sec {
+    margin-top: 20px;
+}
+
+.card {
+    display: inline-block;
+    width: 25%;
+    background-color: rgb(225, 225, 225);
+    padding: 30px;
+    text-align: center;
+    border-radius: 15px;
+}
+
+
+.card a {
+    display: inline-block;
+    margin-top: 20px;
+    color: rgb(36, 36, 36);
+    background-color: #00e5ff;
+    padding: 8px 3px;
+    border-radius: 5px;
+}
+
+.card a:hover {
+    background-color: #00b3c7;
+}
+
+.cg-sec {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.card-goal {
+    width: 18%;
+    padding: 10px;
+    background-color: #2beaff;
+    border-radius: 20px;
+}
+
+.card-goal a {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 8px 3px;
+    border-radius: 8px;
+    background-color: rgb(189, 255, 255);
+}
+
+
+.goal-des {
+    margin: 20px 30px;
+    border: 1px solid rgb(0, 0, 0);
+    padding: 20px;
+    border-radius: 15px;
+}
+.goal-des p{
+    margin-bottom: 10px;
+}
